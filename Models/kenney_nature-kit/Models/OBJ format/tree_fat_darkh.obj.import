@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cvirtaapfjq88"
+path="res://.godot/imported/tree_fat_darkh.obj-b4c79466e51cf51d188307d8bfb95b3b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree_fat_darkh.obj-b4c79466e51cf51d188307d8bfb95b3b.mesh"]
+
+source_file="res://Models/kenney_nature-kit/Models/OBJ format/tree_fat_darkh.obj"
+dest_files=["res://.godot/imported/tree_fat_darkh.obj-b4c79466e51cf51d188307d8bfb95b3b.mesh", "res://.godot/imported/tree_fat_darkh.obj-b4c79466e51cf51d188307d8bfb95b3b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

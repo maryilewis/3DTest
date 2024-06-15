@@ -1,8 +1,11 @@
-res://Models/kenney castle resaved/bridge-straight.tscn
+res://Settings/Forest/forest.tscn
+res://Settings/Forest/dof.gdshader
 res://Settings/Castle Ruin/stairs square.gdshader
 res://Shaders/curvature_shader.gdshader
+res://Settings/Forest/Camera3D.gd
+res://Models/kenney castle resaved/bridge-straight.tscn
 res://Characters/Player/player.tscn
-res://Settings/Castle Ruin/stairs square.tscn
-res://Settings/Castle Ruin/stairs square.tres
-res://Settings/Forest/forest.tscn
 res://Settings/Castle Ruin/castle.tscn
+res://Settings/Castle Ruin/stairs square.tscn
+res://UI/Compete/Compete.tscn
+res://UI/Compete/Backgrounds/Forest.tscn

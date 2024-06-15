@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://5km11db64kaq"
+path="res://.godot/imported/crops_wheatStageB.obj-720c5c231e5a108e1fd9124f2ce0ca14.mesh"
+
+[deps]
+
+files=["res://.godot/imported/crops_wheatStageB.obj-720c5c231e5a108e1fd9124f2ce0ca14.mesh"]
+
+source_file="res://Models/kenney_nature-kit/Models/OBJ format/crops_wheatStageB.obj"
+dest_files=["res://.godot/imported/crops_wheatStageB.obj-720c5c231e5a108e1fd9124f2ce0ca14.mesh", "res://.godot/imported/crops_wheatStageB.obj-720c5c231e5a108e1fd9124f2ce0ca14.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

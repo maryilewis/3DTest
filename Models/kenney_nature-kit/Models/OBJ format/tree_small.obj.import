@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bi0rqn7w46keg"
+path="res://.godot/imported/tree_small.obj-478a7f5eacc3f9866c878061665fde52.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree_small.obj-478a7f5eacc3f9866c878061665fde52.mesh"]
+
+source_file="res://Models/kenney_nature-kit/Models/OBJ format/tree_small.obj"
+dest_files=["res://.godot/imported/tree_small.obj-478a7f5eacc3f9866c878061665fde52.mesh", "res://.godot/imported/tree_small.obj-478a7f5eacc3f9866c878061665fde52.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

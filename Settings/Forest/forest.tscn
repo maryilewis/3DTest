@@ -1,8 +1,10 @@
-[gd_scene load_steps=33 format=3 uid="uid://bjyidn2obgu8a"]
+[gd_scene load_steps=37 format=3 uid="uid://bjyidn2obgu8a"]
 
 [ext_resource type="Script" path="res://Settings/Forest/Camera3D.gd" id="1_du7k1"]
 [ext_resource type="PackedScene" uid="uid://c2nbb81sehto3" path="res://Characters/Player/player.tscn" id="1_hhryn"]
+[ext_resource type="Shader" path="res://Settings/Forest/dof.gdshader" id="2_ivb3b"]
 [ext_resource type="Script" path="res://Settings/Forest/Camera3D2.gd" id="2_tm63x"]
+[ext_resource type="Script" path="res://Settings/Forest/dof.gd" id="2_y3upr"]
 [ext_resource type="PackedScene" uid="uid://mmgny6seu2wc" path="res://Models/city - kay - resaved/road_tsplit.tscn" id="3_8fcin"]
 [ext_resource type="PackedScene" uid="uid://8cykyd14j654" path="res://Models/city - kay - resaved/building_A.tscn" id="3_le72u"]
 [ext_resource type="PackedScene" uid="uid://cqxhjqqv1u0tb" path="res://Models/city - kay - resaved/road_straight.tscn" id="4_kjtld"]
@@ -12,6 +14,19 @@
 [ext_resource type="PackedScene" uid="uid://466l2i3spayr" path="res://Models/city - kay - resaved/building_e.tscn" id="9_vk8rw"]
 [ext_resource type="Texture2D" uid="uid://dsmdlx7537dmb" path="res://Models/city - kay/gltf/citybits_texture.png" id="10_h76pu"]
 [ext_resource type="PackedScene" uid="uid://bgnqaquh5gplt" path="res://Settings/Castle Ruin/castle.tscn" id="11_kttwk"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_mjv8c"]
+flip_faces = true
+size = Vector2(2, 2)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rnaka"]
+render_priority = 0
+shader = ExtResource("2_ivb3b")
+shader_parameter/ray_position = null
+shader_parameter/blur_strength = 3
+shader_parameter/blur_falloff = 7.0
+shader_parameter/blur_near = 3.0
+shader_parameter/blur_far = 50.0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fqhcr"]
 albedo_color = Color(0.298039, 0.423529, 0.392157, 1)
@@ -118,22 +133,29 @@ fog_sky_affect = 0.25
 
 [node name="Forest" type="Node3D"]
 
-[node name="Camera3D" type="Camera3D" parent="." node_paths=PackedStringArray("player")]
-transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 4, 8)
+[node name="Perspective" type="Camera3D" parent="." node_paths=PackedStringArray("player")]
+transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 0, 0)
+current = true
 size = 20.0
+far = 300.0
 script = ExtResource("1_du7k1")
 player = NodePath("../Player")
 
-[node name="Camera3D2" type="Camera3D" parent="." node_paths=PackedStringArray("player")]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Perspective"]
+cast_shadow = 0
+mesh = SubResource("QuadMesh_mjv8c")
+surface_material_override/0 = SubResource("ShaderMaterial_rnaka")
+script = ExtResource("2_y3upr")
+
+[node name="Orthogonal" type="Camera3D" parent="." node_paths=PackedStringArray("player")]
 transform = Transform3D(0.707107, -0.353553, 0.612372, 0, 0.866025, 0.5, -0.707107, -0.353553, 0.612372, 50, 50, 100)
 projection = 1
-current = true
 size = 20.0
 script = ExtResource("2_tm63x")
 player = NodePath("../Player")
 
 [node name="Player" parent="." instance=ExtResource("1_hhryn")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.2604, 2.02194, 23.4674)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.472, 2.02194, 15.9721)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(100, 0, 0, 0, 100, 0, 0, 0, 100, 0, 0, 0)
