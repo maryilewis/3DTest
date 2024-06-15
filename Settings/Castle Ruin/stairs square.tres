@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://b8bas85jnhxjy"]
+
+[ext_resource type="Texture2D" uid="uid://dykrl5s1yi6wf" path="res://Models/kenney_castle-kit/Models/GLB format/Textures/colormap.png" id="1_iwrfv"]
+
+[resource]
+resource_name = "colormap"
+cull_mode = 2
+albedo_texture = ExtResource("1_iwrfv")
+texture_filter = 2

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://fvdi2emufpr8"
+path="res://.godot/imported/siege-catapult-demolished.obj-7d02df03d41c7e3dc9fdf85584cf39da.mesh"
+
+[deps]
+
+files=["res://.godot/imported/siege-catapult-demolished.obj-7d02df03d41c7e3dc9fdf85584cf39da.mesh"]
+
+source_file="res://Models/kenney_castle-kit/Models/OBJ format/siege-catapult-demolished.obj"
+dest_files=["res://.godot/imported/siege-catapult-demolished.obj-7d02df03d41c7e3dc9fdf85584cf39da.mesh", "res://.godot/imported/siege-catapult-demolished.obj-7d02df03d41c7e3dc9fdf85584cf39da.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

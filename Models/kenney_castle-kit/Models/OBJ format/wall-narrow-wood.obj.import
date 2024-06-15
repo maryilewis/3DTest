@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dmektvuiseppu"
+path="res://.godot/imported/wall-narrow-wood.obj-7a1ff71e3d3a6bef1e7bc562cb25c50f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall-narrow-wood.obj-7a1ff71e3d3a6bef1e7bc562cb25c50f.mesh"]
+
+source_file="res://Models/kenney_castle-kit/Models/OBJ format/wall-narrow-wood.obj"
+dest_files=["res://.godot/imported/wall-narrow-wood.obj-7a1ff71e3d3a6bef1e7bc562cb25c50f.mesh", "res://.godot/imported/wall-narrow-wood.obj-7a1ff71e3d3a6bef1e7bc562cb25c50f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

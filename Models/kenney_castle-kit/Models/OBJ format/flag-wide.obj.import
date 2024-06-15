@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dmckekkjyy5ww"
+path="res://.godot/imported/flag-wide.obj-b728cb57b78488a57e2bc0f464731ea8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/flag-wide.obj-b728cb57b78488a57e2bc0f464731ea8.mesh"]
+
+source_file="res://Models/kenney_castle-kit/Models/OBJ format/flag-wide.obj"
+dest_files=["res://.godot/imported/flag-wide.obj-b728cb57b78488a57e2bc0f464731ea8.mesh", "res://.godot/imported/flag-wide.obj-b728cb57b78488a57e2bc0f464731ea8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

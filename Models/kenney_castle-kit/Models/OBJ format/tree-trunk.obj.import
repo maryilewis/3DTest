@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ctdfb28iuhmc5"
+path="res://.godot/imported/tree-trunk.obj-28a3689f86f479d67011ec3ad3fed3ed.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree-trunk.obj-28a3689f86f479d67011ec3ad3fed3ed.mesh"]
+
+source_file="res://Models/kenney_castle-kit/Models/OBJ format/tree-trunk.obj"
+dest_files=["res://.godot/imported/tree-trunk.obj-28a3689f86f479d67011ec3ad3fed3ed.mesh", "res://.godot/imported/tree-trunk.obj-28a3689f86f479d67011ec3ad3fed3ed.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c56ut3d385sjl"
+path="res://.godot/imported/wall-half-modular.obj-ca31d87c085f228ab6bdd8bdac89f671.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall-half-modular.obj-ca31d87c085f228ab6bdd8bdac89f671.mesh"]
+
+source_file="res://Models/kenney_castle-kit/Models/OBJ format/wall-half-modular.obj"
+dest_files=["res://.godot/imported/wall-half-modular.obj-ca31d87c085f228ab6bdd8bdac89f671.mesh", "res://.godot/imported/wall-half-modular.obj-ca31d87c085f228ab6bdd8bdac89f671.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

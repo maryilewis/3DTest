@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://icravskaksg"
+path="res://.godot/imported/wall-corner.obj-e5057110cc9c709dda6f18a309f2a10e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall-corner.obj-e5057110cc9c709dda6f18a309f2a10e.mesh"]
+
+source_file="res://Models/kenney_castle-kit/Models/OBJ format/wall-corner.obj"
+dest_files=["res://.godot/imported/wall-corner.obj-e5057110cc9c709dda6f18a309f2a10e.mesh", "res://.godot/imported/wall-corner.obj-e5057110cc9c709dda6f18a309f2a10e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

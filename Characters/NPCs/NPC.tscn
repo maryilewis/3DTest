@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b22kvp6dudq8d"]
+
+[ext_resource type="PackedScene" uid="uid://det3c1o7ixgru" path="res://Models/People/Casual_Male.gltf" id="1_uttrg"]
+
+[node name="Npc" type="Node3D"]
+
+[node name="Casual_Male" parent="." instance=ExtResource("1_uttrg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0190612, 0, 0.0339448)
