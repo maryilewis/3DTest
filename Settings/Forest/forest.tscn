@@ -134,8 +134,9 @@ fog_sky_affect = 0.25
 [node name="Forest" type="Node3D"]
 
 [node name="Perspective" type="Camera3D" parent="." node_paths=PackedStringArray("player")]
-transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 0.939693, 0.34202, 0, -0.34202, 0.939693, 0, 0, 0)
 current = true
+fov = 30.0
 size = 20.0
 far = 300.0
 script = ExtResource("1_du7k1")
